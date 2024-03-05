@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Main-Class: me.easycalculator.graphitecalculator.Main
+Class-Path: javafx-graphics-17.0.6-mac.jar javafx-base-17.0.6-mac.jar ja
+ vafx-media-17.0.6-mac.jar javafx-base-17.0.6.jar javafx-fxml-17.0.6-mac
+ .jar tilesfx-11.48.jar javafx-web-17.0.6-mac.jar javafx-controls-17.0.6
+ .jar javafx-fxml-17.0.6.jar javafx-media-17.0.6.jar javafx-graphics-17.
+ 0.6.jar javafx-swing-17.0.6.jar javafx-web-17.0.6.jar javafx-swing-17.0
+ .6-mac.jar javafx-controls-17.0.6-mac.jar
+

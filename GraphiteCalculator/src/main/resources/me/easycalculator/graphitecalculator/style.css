@@ -1,0 +1,12 @@
+
+.button{
+    -fx-font: 14px "Source Code Pro Black";
+    -fx-padding: 10;
+    -fx-text-fill: white;
+    -fx-background-radius: 10px;
+    -fx-background-color: #2F4F4F;
+}
+.pane{
+     -fx-border-radius: 25px;
+     -fx-background-radius: 25px;
+}

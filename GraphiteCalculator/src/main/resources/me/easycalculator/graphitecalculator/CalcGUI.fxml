@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="350.0" styleClass="pane" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.easycalculator.graphitecalculator.CalcGUIController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="500.0" stroke="BLACK" strokeType="INSIDE" width="350.0">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.6571428571428571" radius="0.8372093023255814">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.32894736528396606" green="0.32894736528396606" blue="0.32894736528396606" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.5014936978228842">
+                     <color>
+                        <Color red="0.3100000023841858" green="0.3100000023841858" blue="0.3100000023841858" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.09210526198148727" green="0.07718080282211304" blue="0.07718080282211304" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Button fx:id="button7" layoutX="45.0" layoutY="260.0" mnemonicParsing="false" onAction="#handleDigits" prefHeight="40.0" prefWidth="40.0" text="7">
+         <effect>
+            <InnerShadow offsetY="2.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.6360152959823608" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Button fx:id="button8" layoutX="115.0" layoutY="260.0" mnemonicParsing="false" onAction="#handleDigits" prefHeight="40.0" prefWidth="40.0" text="8">
+         <effect>
+            <InnerShadow offsetY="2.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.6360152959823608" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Button fx:id="button9" layoutX="187.0" layoutY="260.0" mnemonicParsing="false" onAction="#handleDigits" prefHeight="40.0" prefWidth="40.0" text="9">
+         <effect>
+            <InnerShadow offsetY="2.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.6360152959823608" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Button fx:id="subtractButton" layoutX="257.0" layoutY="260.0" mnemonicParsing="false" onAction="#handleOperator" prefHeight="40.0" prefWidth="40.0" text="-">
+         <effect>
+            <InnerShadow offsetY="2.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.6360152959823608" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Button fx:id="button4" layoutX="45.0" layoutY="315.0" mnemonicParsing="false" onAction="#handleDigits" prefHeight="40.0" prefWidth="40.0" text="4">
+         <effect>
+            <InnerShadow offsetY="2.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.6360152959823608" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Button fx:id="button5" layoutX="115.0" layoutY="315.0" mnemonicParsing="false" onAction="#handleDigits" prefHeight="40.0" prefWidth="40.0" text="5">
+         <effect>
+            <InnerShadow offsetY="2.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.6360152959823608" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Button fx:id="button6" layoutX="187.0" layoutY="315.0" mnemonicParsing="false" onAction="#handleDigits" prefHeight="40.0" prefWidth="40.0" text="6">
+         <effect>
+            <InnerShadow offsetY="2.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.6360152959823608" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Button fx:id="addButton" layoutX="257.0" layoutY="315.0" mnemonicParsing="false" onAction="#handleOperator" prefHeight="40.0" prefWidth="40.0" text="+">
+         <effect>
+            <InnerShadow offsetY="2.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.6360152959823608" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Button fx:id="button1" layoutX="45.0" layoutY="370.0" mnemonicParsing="false" onAction="#handleDigits" prefHeight="40.0" prefWidth="40.0" text="1">
+         <effect>
+            <InnerShadow offsetY="2.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.6360152959823608" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Button fx:id="button2" layoutX="115.0" layoutY="370.0" mnemonicParsing="false" onAction="#handleDigits" prefHeight="40.0" prefWidth="40.0" text="2">
+         <effect>
+            <InnerShadow offsetY="2.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.6360152959823608" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Button fx:id="button3" layoutX="187.0" layoutY="370.0" mnemonicParsing="false" onAction="#handleDigits" prefHeight="40.0" prefWidth="40.0" text="3">
+         <effect>
+            <InnerShadow offsetY="2.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.6360152959823608" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Button fx:id="multiplyButton" layoutX="257.0" layoutY="370.0" mnemonicParsing="false" onAction="#handleOperator" prefHeight="40.0" prefWidth="40.0" text="X">
+         <effect>
+            <InnerShadow offsetY="2.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.6360152959823608" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Button fx:id="button0" layoutX="45.0" layoutY="425.0" mnemonicParsing="false" onAction="#handleDigits" prefHeight="40.0" prefWidth="40.0" text="0">
+         <effect>
+            <InnerShadow offsetY="2.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.6360152959823608" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Button fx:id="squareButton" layoutX="115.0" layoutY="425.0" mnemonicParsing="false" onAction="#handleFunctions" prefHeight="40.0" prefWidth="40.0" text="ˆ2">
+         <effect>
+            <InnerShadow offsetY="2.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.6360152959823608" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Button fx:id="dotButton" layoutX="187.0" layoutY="425.0" mnemonicParsing="false" onAction="#handleDigits" prefHeight="40.0" prefWidth="40.0" text=".">
+         <effect>
+            <InnerShadow offsetY="2.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.6360152959823608" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Button fx:id="divideButton" layoutX="257.0" layoutY="425.0" mnemonicParsing="false" onAction="#handleOperator" prefHeight="40.0" prefWidth="40.0" text="/">
+         <effect>
+            <InnerShadow offsetY="2.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.6360152959823608" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Button fx:id="sinButton" layoutX="45.0" layoutY="203.0" mnemonicParsing="false" onAction="#handleFunctions" prefHeight="40.0" prefWidth="110.0" text="Sin(x)">
+         <effect>
+            <InnerShadow offsetY="2.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.6360152959823608" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Button fx:id="cosButton" layoutX="187.0" layoutY="203.0" mnemonicParsing="false" onAction="#handleFunctions" prefHeight="40.0" prefWidth="110.0" text="Cos(x)">
+         <effect>
+            <InnerShadow offsetY="2.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.6360152959823608" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Button fx:id="clearButton" layoutX="45.0" layoutY="150.0" mnemonicParsing="false" onAction="#clearCalculator" prefHeight="40.0" prefWidth="40.0" text="C">
+         <effect>
+            <InnerShadow offsetY="2.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.6360152959823608" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Button fx:id="ansButon" layoutX="187.0" layoutY="150.0" mnemonicParsing="false" onAction="#handleFunctions" prefHeight="40.0" prefWidth="110.0" text="Ans">
+         <effect>
+            <InnerShadow offsetY="2.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.6360152959823608" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfe3e8" height="70.0" layoutX="40.0" layoutY="20.0" stroke="#0000006d" strokeType="INSIDE" strokeWidth="3.0" width="265.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfe3e8" height="50.0" layoutX="187.0" layoutY="90.0" stroke="#0000006d" strokeType="INSIDE" strokeWidth="3.0" width="118.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Rectangle>
+      <Label fx:id="ans" alignment="CENTER_RIGHT" layoutX="192.0" layoutY="90.0" prefHeight="50.0" prefWidth="104.0" text="0" textAlignment="RIGHT">
+         <font>
+            <Font name="Source Code Pro Black" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="96.0" prefHeight="30.0" prefWidth="104.0" text="Graphite Calc" textFill="WHITE">
+         <font>
+            <Font name="Source Code Pro Black" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="111.0" prefHeight="30.0" prefWidth="104.0" text="Made with JavaFX" textFill="WHITE">
+         <font>
+            <Font name="Source Code Pro Black" size="10.0" />
+         </font>
+      </Label>
+      <TextField fx:id="display" alignment="CENTER_RIGHT" editable="false" layoutX="46.0" layoutY="27.0" prefHeight="56.0" prefWidth="253.0" promptText="0">
+         <font>
+            <Font name="Source Code Pro Black" size="13.0" />
+         </font>
+      </TextField>
+      <Button fx:id="equalsButton" layoutX="112.0" layoutY="150.0" mnemonicParsing="false" onAction="#handleResult" prefHeight="40.0" prefWidth="40.0" text="=">
+         <effect>
+            <InnerShadow offsetY="2.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.6360152959823608" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
